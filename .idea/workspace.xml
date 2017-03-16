@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7356a9ad-83a6-455c-b945-2d377b03e224" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/static/img/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/blog/post_edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/math_model.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/static/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/static/css/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/static/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/static/img/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/static/javascript/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotation_modeling/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoTest/settings.py" afterPath="$PROJECT_DIR$/DjangoTest/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoTest/urls.py" afterPath="$PROJECT_DIR$/DjangoTest/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rotation_modeling/math_model.py" afterPath="$PROJECT_DIR$/rotation_modeling/math_model.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,14 +34,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="math_model.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="math_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rotation_modeling/math_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="55" column="113" lean-forward="false" selection-start-line="55" selection-start-column="105" selection-end-line="55" selection-end-column="113" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -202,9 +173,9 @@
         <option value="$PROJECT_DIR$/rotation_modeling/templates/base.html" />
         <option value="$PROJECT_DIR$/rotation_modeling/static/css/styles.css" />
         <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/base.html" />
-        <option value="$PROJECT_DIR$/rotation_modeling/math_model.py" />
         <option value="$PROJECT_DIR$/rotation_modeling/views.py" />
         <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/test.html" />
+        <option value="$PROJECT_DIR$/rotation_modeling/math_model.py" />
       </list>
     </option>
   </component>
@@ -811,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488667516177</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added view and template for detailed blog post as well as CSS for the site.&#10;Add math model of rotation programm">
+      <created>1489689551061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489689551061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -859,7 +837,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Just" />
     <MESSAGE value="Added view and template for detailed blog post as well as CSS for the site." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added view and template for detailed blog post as well as CSS for the site." />
+    <MESSAGE value="Added view and template for detailed blog post as well as CSS for the site.&#10;Add math model of rotation programm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added view and template for detailed blog post as well as CSS for the site.&#10;Add math model of rotation programm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1225,16 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotation_modeling/math_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="113" lean-forward="false" selection-start-line="55" selection-start-column="105" selection-end-line="55" selection-end-column="113" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rotation_modeling/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1259,6 +1228,14 @@
             <element signature="e#1759#1832#0#HTML" expanded="true" />
             <element signature="e#2075#2097#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/math_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
