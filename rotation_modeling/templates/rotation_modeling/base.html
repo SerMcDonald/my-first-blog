@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{%static 'css/styles.css' %}">
+    <meta charset="UTF-8">
+    <title>Моделирование</title>
+</head>
+<body>
+<div class="headers">
+    <div class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+          <img src="{%static 'img/menu.png' %}" style="height: 50px; width: 50px">
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="/">Построить модель</a></li>
+          <li><a href="#">Сохраненные модели</a></li>
+        </ul>
+    </div>
+</div>
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>

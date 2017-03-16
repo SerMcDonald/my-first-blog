@@ -1,0 +1,259 @@
+{% extends 'rotation_modeling/base.html' %}
+{% block content %}
+    <form class="form-inline formback" action="javascript:void(null)" id="buildParams" onsubmit="build()">
+        <div class="form-group">
+          <label for="orbit_hight">Высота орбиты:</label>
+          <div class="col-xs-13">
+            <input class="form-control" name="orbit_hight">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cab_len">Длина троса:</label>
+          <div class="col-xs-13">
+              <input class="form-control" name="cab_len">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mas1">Масса 1-го КА:</label>
+          <div class="col-xs-13">
+              <input class="form-control" name="mas1">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mas2">Масса 2-го КА:</label>
+          <div class="col-xs-13">
+              <input class="form-control" name="mas2">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="thrust">Тяга:</label>
+            <div class="col-xs-13">
+              <input class="form-control" name="thrust">
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="ang_a">Угол Альфа:</label>
+            <div class="col-xs-13">
+              <input class="form-control" name="ang_a">
+            </div>
+        </div>
+        <div style="margin-left: 34%">
+          <label for="ang_g">Угол Гамма:</label>
+            <div class="col-xs-13">
+              <input class="form-control" name="ang_g">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-default" style="margin-left: 40%">Построить</button>
+    </form>
+    <div id="c" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+    <div id="c2" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+    <div id="c3" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+    <div id="comment" class="formback" style="display: none;">
+        <textarea></textarea>
+        <button>Сохранить</button>
+    </div>
+    <script>
+        var chart_params={
+            chart: {
+                type: 'spline',
+                inverted: false
+            },
+            title: {
+                text: 'Зависимость угловой скорости от времени'
+            },
+
+            xAxis: {
+                reversed: false,
+                title: {
+                    enabled: true,
+                    text: 'Время'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value;
+                    }
+                },
+                maxPadding: 0.05,
+                showLastLabel: true
+            },
+            yAxis: {
+                title: {
+                    text: 'Угловая скорость'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value;
+                    }
+                },
+                lineWidth: 2
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                headerFormat: '<b>{series.name}</b><br/>',
+                pointFormat: '{point.x} : {point.y}'
+            },
+            plotOptions: {
+                spline: {
+                    marker: {
+                        enable: false
+                    }
+                }
+            },
+            series: [{
+                name: 'Угловая скорость'
+            }]
+        };
+
+
+        function build(){
+            var msg   = $('#buildParams').serialize();
+            $.ajax({
+              type: 'GET',
+              url: '/build_model',
+              data: msg,
+              success: function(data) {
+                  chart_params.series =  [{
+                    name: 'Угловая скорость',
+                    data: data.mas1}];
+                  Highcharts.chart('c', chart_params);
+                  chart_params.series =  [{
+                    name: 'Угловая скорость',
+                    data: data.mas2}];
+                  chart_params.title={
+                      text: "Зависимость угловой скорости от угла"
+                  };
+                  Highcharts.chart('c2', chart_params);
+                  chart_params.series =  [{
+                    name: 'Сила натяжения троса',
+                    data: data.mas3}];
+                  chart_params.title={
+                      text: "Зависимость силы натяжения троса от времени"
+                  };
+                  Highcharts.chart('c3', chart_params);
+                  $('#comment').show();
+
+              },
+              error:  function(xhr, str){
+                 alert('Внутренняя ошибка сервера');
+              }
+            });
+        }
+
+
+
+
+{#        Highcharts.chart('c', {#}
+{#        chart: {#}
+{#            type: 'spline',#}
+{#            inverted: false#}
+{#        },#}
+{#        title: {#}
+{#            text: 'Зависимость угловой скорости от времени'#}
+{#        },#}
+{##}
+{#        xAxis: {#}
+{#            reversed: false,#}
+{#            title: {#}
+{#                enabled: true,#}
+{#                text: 'Время'#}
+{#            },#}
+{#            labels: {#}
+{#                formatter: function () {#}
+{#                    return this.value;#}
+{#                }#}
+{#            },#}
+{#            maxPadding: 0.05,#}
+{#            showLastLabel: true#}
+{#        },#}
+{#        yAxis: {#}
+{#            title: {#}
+{#                text: 'Угловая скорость'#}
+{#            },#}
+{#            labels: {#}
+{#                formatter: function () {#}
+{#                    return this.value;#}
+{#                }#}
+{#            },#}
+{#            lineWidth: 2#}
+{#        },#}
+{#        legend: {#}
+{#            enabled: false#}
+{#        },#}
+{#        tooltip: {#}
+{#            headerFormat: '<b>{series.name}</b><br/>',#}
+{#            pointFormat: '{point.x} : {point.y}'#}
+{#        },#}
+{#        plotOptions: {#}
+{#            spline: {#}
+{#                marker: {#}
+{#                    enable: false#}
+{#                }#}
+{#            }#}
+{#        },#}
+{#        series: [{#}
+{#            name: 'Угловая скорость',#}
+{#            data:[[0,0] {%  for i,j in mas %}#}
+{#                ,[{{ i }}, {{ j }}]#}
+{#                {% endfor %}]#}
+{#        }]#}
+{#    });#}
+{##}
+{#    Highcharts.chart('c2', {#}
+{#        chart: {#}
+{#            type: 'spline',#}
+{#            inverted: false#}
+{#        },#}
+{#        title: {#}
+{#            text: ''#}
+{#        },#}
+{##}
+{#        xAxis: {#}
+{#            reversed: false,#}
+{#            title: {#}
+{#                enabled: true,#}
+{#                text: 'Altitude'#}
+{#            },#}
+{#            labels: {#}
+{#                formatter: function () {#}
+{#                    return this.value;#}
+{#                }#}
+{#            },#}
+{#            maxPadding: 0.05,#}
+{#            showLastLabel: true#}
+{#        },#}
+{#        yAxis: {#}
+{#            title: {#}
+{#                text: 'Угловая скорость'#}
+{#            },#}
+{#            labels: {#}
+{#                formatter: function () {#}
+{#                    return this.value;#}
+{#                }#}
+{#            },#}
+{#            lineWidth: 2#}
+{#        },#}
+{#        legend: {#}
+{#            enabled: false#}
+{#        },#}
+{#        tooltip: {#}
+{#            headerFormat: '<b>{series.name}</b><br/>',#}
+{#            pointFormat: '{point.x} : {point.y}'#}
+{#        },#}
+{#        plotOptions: {#}
+{#            spline: {#}
+{#                marker: {#}
+{#                    enable: false#}
+{#                }#}
+{#            }#}
+{#        },#}
+{#        series: [{#}
+{#            name: 'Угловая скорость',#}
+{#            data:[[0,0] {%  for i,j in mas2 %}#}
+{#                ,[{{ i }}, {{ j }}]#}
+{#                {% endfor %}]#}
+{#        }]#}
+{#    });#}
+    </script>
+{% endblock %}
