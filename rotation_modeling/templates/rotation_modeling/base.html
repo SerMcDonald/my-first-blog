@@ -9,7 +9,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="{%static 'css/styles.css' %}">
     <meta charset="UTF-8">
-    <title>Моделирование</title>
+    <title>{% block title %}
+    {% endblock %}</title>
 </head>
 <body>
 <div class="headers">
@@ -20,7 +21,7 @@
         </a>
         <ul class="dropdown-menu">
           <li><a href="/">Построить модель</a></li>
-          <li><a href="#">Сохраненные модели</a></li>
+          <li><a href="/saved_models">Сохраненные модели</a></li>
         </ul>
     </div>
 </div>

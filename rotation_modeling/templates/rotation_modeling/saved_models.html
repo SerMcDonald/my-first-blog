@@ -1,0 +1,27 @@
+{% extends 'rotation_modeling/base.html' %}
+{% block title %}
+    Сохраненные модели
+{% endblock %}
+{% block content %}
+    {% for model in models %}
+        <a href="{% url 'saved_model_detail' pk=model.pk %}">
+            <div class="saved_model">
+                <h4>{{ model.name }}</h4>
+                <p>{{ model.comment }}</p>
+                <div class="date">
+                    {{ model.published_date }}
+                </div>
+            </div>
+        </a>
+        <br>
+    {% endfor %}
+    <script>
+        $('.saved_model').hover(
+            function() {
+                $( this ).addClass('shadow');
+            }, function() {
+                $( this ).removeClass('shadow');
+            }
+        );
+    </script>
+{% endblock %}
