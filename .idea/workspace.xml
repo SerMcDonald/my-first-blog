@@ -2,7 +2,377 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7356a9ad-83a6-455c-b945-2d377b03e224" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/_dummy.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/lib/npymath.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/multiarray.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/multiarray_tests.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/operand_flag_tests.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/struct_ufunc_test.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/test_rational.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/data/astype_copy.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/data/recarray_from_file.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/umath.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/umath_tests.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/fft/fftpack_lite.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/data/py2-objarr.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/data/py2-objarr.npz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/data/py3-objarr.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/data/py3-objarr.npz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/data/python3.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/data/win64python2.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/_umath_linalg.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/lapack_lite.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/random/mtrand.cp36-win_amd64.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/__config__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/_globals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/_import_tools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/add_newdocs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/compat/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/compat/_inspect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/compat/py3k.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/compat/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/_internal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/_methods.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/arrayprint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/cversions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/defchararray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/fromnumeric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/function_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/generate_numpy_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/getlimits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/__multiarray_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/__ufunc_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/_neighborhood_iterator_imp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/_numpyconfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/arrayobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/arrayscalars.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/halffloat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/multiarray_api.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/ndarrayobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/ndarraytypes.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/noprefix.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_1_7_deprecated_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_3kcompat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_cpu.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_endian.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_interrupt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_math.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_no_deprecated_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/npy_os.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/numpyconfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/old_defines.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/oldnumeric.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/ufunc_api.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/ufuncobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/include/numpy/utils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/lib/npy-pkg-config/mlib.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/lib/npy-pkg-config/npymath.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/machar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/memmap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/numeric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/numerictypes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/records.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/setup_common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/shape_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_abc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_arrayprint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_datetime.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_defchararray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_deprecations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_dtype.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_einsum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_errstate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_extint128.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_function_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_getlimits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_half.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_indexerrors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_indexing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_item_selection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_longdouble.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_machar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_mem_overlap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_memmap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_multiarray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_nditer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_numeric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_numerictypes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_print.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_records.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_scalarinherit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_scalarmath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_scalarprint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_shape_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_ufunc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_umath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_umath_complex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/core/tests/test_unicode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ctypeslib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/__config__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/__version__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/ccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/autodist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/bdist_rpm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/build.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/build_clib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/build_ext.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/build_py.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/build_scripts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/build_src.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/config_compiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/develop.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/egg_info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/install.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/install_clib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/install_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/install_headers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/command/sdist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/conv_template.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/cpuinfo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/environment.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/exec_command.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/extension.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/absoft.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/compaq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/g95.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/gnu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/hpux.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/ibm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/intel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/lahey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/mips.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/nag.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/none.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/pathf95.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/pg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/sun.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/fcompiler/vast.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/from_template.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/intelccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/lib2def.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/line_endings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/log.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/mingw/gfortran_vs2003_hack.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/mingw32ccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/misc_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/msvc9compiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/msvccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/npy_pkg_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/numpy_distribution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/pathccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/site.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/system_info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/tests/test_exec_command.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/tests/test_fcompiler_gnu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/tests/test_fcompiler_intel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/tests/test_misc_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/tests/test_npy_pkg_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/tests/test_system_info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/distutils/unixccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/basics.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/broadcasting.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/byteswapping.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/constants.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/creation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/glossary.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/indexing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/internals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/misc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/structured_arrays.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/subclassing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/doc/ufuncs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/dual.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/__main__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/__version__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/auxfuncs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/capi_maps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/cb_rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/cfuncs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/common_rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/crackfortran.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/diagnose.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/f2py2e.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/f2py_testing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/f90mod_rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/func2subr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/src/fortranobject.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/src/fortranobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/array_from_pyobj/wrapmodule.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/assumed_shape/.f2py_f2cmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/assumed_shape/foo_free.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/assumed_shape/foo_mod.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/assumed_shape/foo_use.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/assumed_shape/precision.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/kind/foo.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/mixed/foo.f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/mixed/foo_fixed.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/mixed/foo_free.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/regression/inout.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/src/size/foo.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_array_from_pyobj.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_assumed_shape.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_callback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_kind.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_mixed.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_return_character.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_return_complex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_return_integer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_return_logical.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_return_real.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/test_size.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/tests/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/f2py/use_rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/fft/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/fft/fftpack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/fft/helper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/fft/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/fft/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/fft/tests/test_fftpack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/fft/tests/test_helper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/_datasource.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/_iotools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/_version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/arraypad.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/arraysetops.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/arrayterator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/financial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/format.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/function_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/index_tricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/nanfunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/npyio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/polynomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/recfunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/scimath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/shape_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/stride_tricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test__datasource.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test__iotools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test__version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_arraypad.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_arraysetops.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_arrayterator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_financial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_format.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_function_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_index_tricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_io.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_nanfunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_packbits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_polynomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_recfunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_shape_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_stride_tricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_twodim_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_type_check.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_ufunclike.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/tests/test_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/twodim_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/type_check.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/ufunclike.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/user_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/lib/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/linalg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/tests/test_build.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/tests/test_deprecations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/tests/test_linalg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/linalg/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/bench.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/extras.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/mrecords.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/tests/test_core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/tests/test_extras.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/tests/test_mrecords.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/tests/test_old_ma.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/tests/test_subclassing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/testutils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/timer_comparison.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/ma/version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/matlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/matrixlib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/matrixlib/defmatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/matrixlib/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/matrixlib/tests/test_defmatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/matrixlib/tests/test_multiarray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/matrixlib/tests/test_numeric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/matrixlib/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/_polybase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/chebyshev.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/hermite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/hermite_e.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/laguerre.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/legendre.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/polynomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/polyutils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_chebyshev.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_classes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_hermite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_hermite_e.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_laguerre.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_legendre.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_polynomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_polyutils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/polynomial/tests/test_printing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/random/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/random/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/random/randomkit.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/random/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/random/tests/test_random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/random/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/noseclasses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/nosetester.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/print_coercion_tables.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/tests/test_decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/tests/test_doctesting.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/tests/test_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/testing/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/tests/test_ctypeslib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/tests/test_matlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/tests/test_numpy_version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/tests/test_reloading.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/tests/test_scripts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpy/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoTest/wsgi.py" afterPath="$PROJECT_DIR$/DjangoTest/wsgi.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rotation_modeling/math_model.py" afterPath="$PROJECT_DIR$/rotation_modeling/math_model.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,105 +395,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotation_modeling/urls.py">
+        <entry file="file://$PROJECT_DIR$/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="22" />
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="math_model.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="math_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rotation_modeling/math_model.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_core.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/numpy/ma/tests/test_core.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotation_modeling/models.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="-1782">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotation_modeling/views.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoTest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="response.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/http/response.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10956">
-              <caret line="519" column="0" lean-forward="false" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pydev_monkey_qt.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey_qt.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoTest/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="303">
+              <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/test.html">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoTest/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="50" column="60" lean-forward="false" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
-              <folding>
-                <element signature="e#1759#1832#0#HTML" expanded="true" />
-                <element signature="e#2075#2097#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_edit.html">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotation_modeling/static/css/styles.css">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoTest/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,8 +500,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -167,14 +532,19 @@
         <option value="$PROJECT_DIR$/DjangoTest/settings.py" />
         <option value="$PROJECT_DIR$/DjangoTest/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/base.html" />
-        <option value="$PROJECT_DIR$/rotation_modeling/models.py" />
-        <option value="$PROJECT_DIR$/rotation_modeling/urls.py" />
         <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/styles.css" />
         <option value="$PROJECT_DIR$/rotation_modeling/templates/base.html" />
-        <option value="$PROJECT_DIR$/rotation_modeling/static/css/styles.css" />
-        <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/base.html" />
-        <option value="$PROJECT_DIR$/rotation_modeling/views.py" />
+        <option value="$PROJECT_DIR$/DjangoTest/wsgi.py" />
         <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/test.html" />
+        <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/base.html" />
+        <option value="$PROJECT_DIR$/rotation_modeling/models.py" />
+        <option value="$PROJECT_DIR$/rotation_modeling/admin.py" />
+        <option value="$PROJECT_DIR$/rotation_modeling/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/rotation_modeling/urls.py" />
+        <option value="$PROJECT_DIR$/rotation_modeling/views.py" />
+        <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/saved_model_detail.html" />
+        <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/saved_models.html" />
+        <option value="$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/build_model.html" />
         <option value="$PROJECT_DIR$/rotation_modeling/math_model.py" />
       </list>
     </option>
@@ -186,9 +556,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1924" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -227,7 +598,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rotation_modeling" />
+              <option name="myItemId" value="numpy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,15 +612,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rotation_modeling" />
+              <option name="myItemId" value="numpy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotation_modeling" />
+              <option name="myItemId" value="ma" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,145 +630,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rotation_modeling" />
+              <option name="myItemId" value="numpy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
+              <option name="myItemId" value="ma" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rotation_modeling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotation_modeling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotation_modeling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,11 +659,12 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sermc\PycharmProjects\DjangoTest\rotation_modeling\static\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sermc\PycharmProjects\DjangoTest\rotation_modeling\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sermc\PycharmProjects\DjangoTest" />
+      <recent name="C:\Users\sermc\PycharmProjects\DjangoTest\rotation_modeling\static\img" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.DjangoTest">
@@ -746,6 +984,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7356a9ad-83a6-455c-b945-2d377b03e224" name="Default" comment="" />
@@ -789,7 +1030,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489689551061</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="delete dependency from mathprotlib">
+      <created>1489690829273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1489690829273</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add in sys path">
+      <created>1490569810595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490569810595</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -804,27 +1059,27 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15320042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38968167" sideWeight="0.51875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22419533" sideWeight="0.5629591" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40066594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38968167" sideWeight="0.48125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -838,14 +1093,24 @@
     <MESSAGE value="Just" />
     <MESSAGE value="Added view and template for detailed blog post as well as CSS for the site." />
     <MESSAGE value="Added view and template for detailed blog post as well as CSS for the site.&#10;Add math model of rotation programm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added view and template for detailed blog post as well as CSS for the site.&#10;Add math model of rotation programm" />
+    <MESSAGE value="delete dependency from mathprotlib" />
+    <MESSAGE value="add in sys path" />
+    <MESSAGE value="add in numpy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add in numpy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Python.DjangoServer">
@@ -854,75 +1119,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DjangoTest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#644#685#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoTest/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#54#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoTest/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoTest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -934,9 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#644#685#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,23 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#644#685#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoTest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoTest/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1000,13 +1176,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1042,13 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/forms/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1056,20 +1218,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoTest/settings.py">
+    <entry file="file://$PROJECT_DIR$/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="44">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoTest/urls.py">
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding>
-            <element signature="e#644#685#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10956">
+          <caret line="519" column="0" lean-forward="false" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/base.html" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey_qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/utils/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4268">
+          <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1083,158 +1327,160 @@
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/utils/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="172">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/forms.py">
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/static/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="990">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="67" />
           <folding>
             <element signature="e#0#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/__init__.py">
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rotation_modeling/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey_qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10956">
-          <caret line="519" column="0" lean-forward="false" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rotation_modeling/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/saved_model_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7568">
+          <caret line="344" column="24" lean-forward="false" selection-start-line="344" selection-start-column="24" selection-end-line="344" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/saved_models.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="22" />
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_edit.html">
+    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/build_model.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="4620">
+          <caret line="210" column="69" lean-forward="false" selection-start-line="210" selection-start-column="69" selection-end-line="210" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rotation_modeling/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="171">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotation_modeling/models.py">
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="88">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotation_modeling/static/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoTest/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoTest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoTest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoTest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="22" />
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rotation_modeling/templates/rotation_modeling/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="50" column="60" lean-forward="false" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
-          <folding>
-            <element signature="e#1759#1832#0#HTML" expanded="true" />
-            <element signature="e#2075#2097#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rotation_modeling/math_model.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numpy/ma/tests/test_core.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
